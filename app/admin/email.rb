@@ -1,4 +1,5 @@
 ActiveAdmin.register Email do
+  permit_params :from, :received_at, :subject
 
 
   # See permitted parameters documentation:
