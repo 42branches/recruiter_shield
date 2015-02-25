@@ -1,4 +1,5 @@
 ActiveAdmin.register Contact do
+  permit_params :name, :first_name, :last_name, :email, :picture, :address_1, :address_2, :city, :region, :postcode, :country, :telephone, :fax, :mobile, :website
 
 
   # See permitted parameters documentation:
